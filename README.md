@@ -13,3 +13,6 @@ Day 1 Marz 26 HTML B站网课P1-20
   下划线 <ins></ins>
 6.<div></div> <span></span>都是布局标签，前者就是独占一行，后者是集中到一行
 一个案例 体育新闻 还有reddit复制的day1.html，当练习了。
+
+Day2 Marz 27 HTML B站网课21-29
+明天先把综合练习写了，然后写总结
