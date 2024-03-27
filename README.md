@@ -11,4 +11,4 @@ Day 1 Marz 26 HTML B站网课P1-20
   倾斜 <em></em>
   删除线 <del></del>
   下划线 <ins></ins>
-一个案例 体育新闻 还有reddit复制的0326titlelabel.html，当练习了。
+一个案例 体育新闻 还有reddit复制的day1.html，当练习了。
