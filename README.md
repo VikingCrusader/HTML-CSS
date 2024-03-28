@@ -25,3 +25,18 @@ Day2 Marz 27 HTML B站网课21-29
 
 Day3 Marz28
 完成了综合案例--圣诞树和圣诞老人
+B站网课30--40
+1.表格
+<table align="center/left/right" border="1" cellpadding="20" cellspacing="0" width="1000"></table>
+aligh对齐方式 border边界宽度 cellpadding字距离边框的距离 cellspacing单元格之间的距离 width表格宽度
+<table></table>里面<thead></thead> <tbody></tbody>
+行<tr></tr> 表头<th></th> 里面元素<td></td>
+2.合并单元格
+先找到要合并的单元格，目标单元格是最左边或最上边的单元格（rowspan跨行 最上边，colspan跨列 最左边）
+然后呢在目标单元格的标签里写rowspan=""或colspan="" 例如<td rowapan="2"></td>
+最后手动删除多余的格子
+3.无序列表
+<ul>
+  <li></li>
+  <li></li>
+</ul>
