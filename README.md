@@ -23,7 +23,7 @@ Day2 Marz 27 HTML B站网课21-29
 6.锚点链接<a href="#A"></a> <h1 id="A"></h1>
 7.注释 <!--我是注释-->
 
-Day3 Marz28
+Day3 Marz 28
 完成了综合案例--圣诞树和圣诞老人
 B站网课30--40
 1.表格
@@ -40,3 +40,32 @@ aligh对齐方式 border边界宽度 cellpadding字距离边框的距离 cellspa
   <li></li>
   <li></li>
 </ul>
+
+Day4 Marz 29
+1.有序列表
+<ol>
+  <li></li>
+  <li></li>
+</ol>
+2.自定义列表
+<dl>
+  <dt></dt>
+  <dd></dd>
+  <dd></dd>
+</dl>
+3.表单
+<form></form>
+4.input
+<form>
+  <input> input是个单标签，input必须包含在form里面
+</form>
+<input type="" name="" value="" checked="" maxlength="">
+5.input的type属性
+text 纯文本输入
+password密码输入
+radio单选 需要name
+checkbox多选 需要name
+6.name 区分，用于单选多选
+7.value 默认值
+8.check="checked"默认选上（用于单选多选）
+9.maxlength="10"最大长度
