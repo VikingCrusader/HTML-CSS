@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>表单</h1>
+    <form action="demo.php" method="post" name="name1">
+        <label for="username">用户名:</label><input type="text" value="请输入用户名" maxlength="6" id="username" /><br />
+        密码:<input type="password" /><br />
+        性别:<label for="gender">男</label><input type="radio" name="gender" value="男" id="gender" /><label
+            for="gender1">女</label><input type="radio" name="gender" value="女" checked="checked" id="gender1" /><br />
+        爱好:吃饭<input type="checkbox" name="hobby" value="吃饭" checked="checked" />睡觉<input type="checkbox" name="hobby"
+            value="睡觉" />打游戏<input type="checkbox" name="hobby" value="打游戏" /><br />
+        <input type="submit" value="免费注册" /><br />
+        <input type="reset" value="重新填写" /><br />
+        <input type="button" value="获取短信验证码" /><br />
+        上传头像:<input type="file" /><br />
+        籍贯：
+        <select>
+            <option>山东</option>
+            <option>天津</option>
+            <option selected="select">上海</option>
+            <option>广东</option>
+        </select><br />
+        备注:
+        <textarea rows="3" cols="30">
+            输入你想备注的文字！
+        </textarea><br />
+    </form>
+</body>
+
+</html>
