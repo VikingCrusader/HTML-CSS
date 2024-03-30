@@ -41,7 +41,7 @@ aligh对齐方式 border边界宽度 cellpadding字距离边框的距离 cellspa
   <li></li>
 </ul>
 
-Day4 Marz 29
+Day4 Marz 29 b站网课 41--50
 1.有序列表
 <ol>
   <li></li>
@@ -70,7 +70,7 @@ checkbox多选 需要name
 8.check="checked"默认选上（用于单选多选）
 9.maxlength="10"最大长度
 
-Day5 Marz 30
+Day5 Marz 30 b站网课 51--60
 继续<input>的type
 file 文件上传
 submit 提交按钮
@@ -79,3 +79,4 @@ reset重置
 <label for=""><input id=""></label> for和id一样的前提下，可以点击图标或者文本就选中
 <textarea>文本框
 做了一个综合案例 表单+表格+列表
+html完结 明天css
