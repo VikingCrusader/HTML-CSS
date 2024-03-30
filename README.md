@@ -69,3 +69,13 @@ checkbox多选 需要name
 7.value 默认值
 8.check="checked"默认选上（用于单选多选）
 9.maxlength="10"最大长度
+
+Day5 Marz 30
+继续<input>的type
+file 文件上传
+submit 提交按钮
+button 按钮 配合javscript启动脚本
+reset重置
+<label for=""><input id=""></label> for和id一样的前提下，可以点击图标或者文本就选中
+<textarea>文本框
+做了一个综合案例 表单+表格+列表
