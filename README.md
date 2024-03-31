@@ -80,3 +80,30 @@ reset重置
 <textarea>文本框
 做了一个综合案例 表单+表格+列表
 html完结 明天css
+
+Day6 CSS第一天 b站网课 61--70
+选择器
+标签选择器
+p {
+  attributes
+}
+类选择器
+一定不要忘记点"."
+<style>
+  .red{
+    background-color: red;
+  }
+</style>
+<body>
+  <div class="red">jjj</div>
+</body>
+id选择器
+<style>
+  #red{
+    background-color: red;
+  }
+</style>
+<body>
+  <div id="red">jjj</div>
+</body>
+实际开发中，设计样式用类多，id一般用于和js一起使用
