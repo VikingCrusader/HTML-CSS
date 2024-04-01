@@ -1,4 +1,4 @@
-# HTML-Learning
+# HTML and CSS -Learning
 My Daly Learning of HTML
 
 Day 1 Marz 26 HTML B站网课P1-20
@@ -107,3 +107,26 @@ id选择器
   <div id="red">jjj</div>
 </body>
 实际开发中，设计样式用类多，id一般用于和js一起使用
+
+Day7 April 1st
+CSS b站网课 71-80， 310 remain
+1.通配符选择器
+*{
+  Attributes
+}
+这个选择器能把所有的标签选中，包括html，body，div，p等
+2.CSS字体属性
+字体库 font-family 
+字体大小 font-size 注意px
+字体样式 font-style italic意大利斜体 normal正体
+字体粗细 font-weight 没有单位
+font连写：style weight size family 注意顺序，可以一行解决，不过初学者还是算了 慢慢来 欲速则不达
+3.CSS文本装饰
+color：预设置颜色 十六进制 rgb
+十六进制-#001100 from PS
+rgb 最方便
+预设置也很简单
+文本对齐：text-align：left/right/center
+装饰文本: text-decoration: none/ underline/ overline/ linethrough
+none可以删除下划线，主要用于链接
+underline主要用于突出
