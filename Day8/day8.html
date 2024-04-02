@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Day8.css">
+    <style>
+        .one {
+            text-align: center;
+            text-indent: 2em;
+            width: 10;
+            height: 20;
+            width: 100px;
+            text-indent: 2em;
+            line-height: 26px;
+            text-decoration: none;
+        }
+
+        ol li {
+            color: pink;
+        }
+
+        ol a {
+            color: red;
+        }
+
+        ul .sss {
+            color: brown;
+        }
+
+        .navi a {
+            color: blue;
+        }
+
+        .navi>a {
+            color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <p style="color:red; font-size: 12px;">1. ECMASCRIPT: 定义了javascript的语法规范,描述了语言的基本语法和数据类型</p>
+    <p class="pp">2. BOM (Browser Object Model): 浏览器对象模型
+        - 有一套成熟的可以操作浏览器的 API，通过 BOM 可以操作浏览器。比如： 弹出框、浏览器跳转、获取分辨率等</p>
+    <p>3. DOM (Document Object Model): 文档对象模型
+        - 有一套成熟的可以操作页面元素的 API，通过 DOM 可以操作页面中的元素。比如： 增加个 div，减少个 div，给div 换个位置等</p>
+    <!-- div*10+tab -->
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <!-- 父子级标签:ul>li + tab -->
+    <ul>
+        <li></li>
+    </ul>
+    <!-- 兄弟级标签，div+p +tab -->
+    <div></div>
+    <p></p>
+    <!-- 快速生成带id或class的标签 div.one/p#one -->
+    <div class="nav"></div>
+    <div id="nav"></div>
+    <p class="nav"></p>
+    <p id="nav"></p>
+    <!-- 快速生成class为demo1....demo5的五个div -->
+    <div class="demo1"></div>
+    <div class="demo2"></div>
+    <div class="demo3"></div>
+    <div class="demo4"></div>
+    <div class="demo5"></div>
+    <div class="one"></div>
+    <!-- 生成的标签里面默认显示文字 -->
+    <div>wdnmd</div>
+    <div>wdnmd</div>
+    <div>wdnmd</div>
+    <div>wdnmd</div>
+    <div>wdnmd</div>
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+    <div>5</div>
+    <!-- 后代选择器 -->
+    <ol>
+        <li>我是ol的孩子</li>
+        <li>我是ol的孩子</li>
+        <li>我是ol的孩子</li>
+        <li>我是ol的孩子</li>
+        <li><a
+                href="https://www.bilibili.com/video/BV14J4114768?p=98&vd_source=37d8048d0c945c84f99ee525b957ea6d">我是孙子</a>
+        </li>
+    </ol>
+    <ul class="navi">
+        <li>我是ul的孩子</li>
+        <li>我是ul的孩子</li>
+        <li>我是ul的孩子</li>
+        <li><a href="#">我是ul的孩子</a></li>
+    </ul>
+    <ul>
+        <li>我是ul的孩子</li>
+        <li>我是ul的孩子</li>
+        <li>我是ul的孩子</li>
+        <li class="sss"><a href="#">我是ul的孩子</a></li>
+    </ul>
+    <div class="nav">
+        <a href="#">我是儿子</a>
+        <p>
+            <a href="#">我是孙子</a>
+        </p>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,10 @@
+p {
+    text-indent: 2em;
+    line-height: 26px;
+    color: green;
+    text-align: center;
+}
+
+.pp {
+    text-decoration: underline;
+}
