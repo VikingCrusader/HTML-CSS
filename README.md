@@ -130,3 +130,14 @@ rgb 最方便
 装饰文本: text-decoration: none/ underline/ overline/ linethrough
 none可以删除下划线，主要用于链接
 underline主要用于突出
+
+Day 8 April 2 B网课 81--100 CSS
+1.CSS文本缩进 text-indent:20px or 2em
+2.行间距 ；line height：20px emmt简写lh20px
+3.CSS引入方式 三种 在此不多赘述
+值得一提的是 若把CSS分文件编写，<link rel="stylesheet" href="my.css">直接link+tab自动出来，不用记
+4.Chrome调试工具 cmd+opt+J element 右上角
+5.Emmet语法 多敲就会了
+6.复合选择器
+子元素选择器   ol li {} 选择所有li
+亲儿子选择器，只选择亲的 .nav a{} 只选择.nav下一级的，孙子级别的不选
