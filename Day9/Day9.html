@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div,
+        p {
+            color: red;
+        }
+
+        div,
+        p,
+        .pig {
+            color: blue;
+        }
+
+        /* 未访问过的链接 */
+
+        a:link {
+            color: black;
+            text-decoration: none;
+        }
+
+        /* 访问过的链接 */
+        a:visited {
+            color: orange;
+            text-decoration: none;
+        }
+
+        /* 鼠标悬停 */
+        a:hover {
+            color: skyblue;
+        }
+
+        /* 鼠标正在按下但是还没有弹起的那个标签 */
+        a:active {
+            color: green;
+        }
+
+        /* 选取带有光标的表单元素选取出来 */
+        input:focus {
+            background-color: pink;
+            color: red;
+        }
+
+        div {
+            height: 200px;
+            width: 200px;
+            color: red;
+            background-color: green;
+        }
+
+        span {
+            background-color: skyblue;
+        }
+
+        input {
+            width: 500px;
+            height: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>熊大</div>
+    <p>熊二</p>
+    <span>光头强</span>
+    <ul class="pig">
+        <li>小猪佩奇</li>
+        <li>猪爸爸</li>
+        <li>猪妈妈</li>
+    </ul>
+    <a href="#">小猪佩奇</a>
+    <a href="https://www.bilibili.com/video/BV14J4114768?p=102">sss</a>
+    <br />
+    <form>
+        <input type="text">
+        <input type="text">
+    </form>
+    <div>比较霸道，自己独占一行</div>瑟瑟发抖<br />
+    <span>首页</span>
+    <span>番剧</span>
+    <span>直播</span>
+    <br />
+    <input type="text" class="yoo">
+</body>
+
+</html>
