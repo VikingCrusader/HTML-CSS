@@ -169,3 +169,24 @@ input:focus{
 行内块元素
 <img /> <input /> <td />
 一行可以放多个这种元素，可是大小可以控制
+
+Day10 April4 B站网课 111--128 CSS
+1.显示模式的转换 Display
+行内转块：Display:block;
+块转行内：Display:inline;
+转化为二者特性兼具的模式：Display:inline-block;
+2.单行文字垂直居中的技巧
+设定line-height和height相同
+3.CSS背景颜色
+background-color
+4.背景图片
+background-image url()
+5.背景大小
+background-size xxpx xxpx
+6.背景位置 
+俩坐标 前面是x后面是y 可以用left right top bottom center这种也可以用px 分别指距离左边框和上边框的距离，可以混合
+7.背景图片常用于小logo的放置，因为它比较方便控制位置
+8.网页大背景直接写在body{}里面
+9.背景固定 background-attachment:scroll or fixed 背景图片是否随文字滚动
+10.背景色设置半透明：rgba（0，0，0，0.3）最后面的值是透明度，0是透明1是完全不透明，文字不受影响
+
