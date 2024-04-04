@@ -1,0 +1,54 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a {
+    display: inline-block;
+    height: 50px;
+    width: 100px;
+    background-color: beige;
+    line-height: 50px;
+    text-align: center;
+    background-repeat: no-repeat;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+.red:hover {
+    background-image: url(colour_images/orange.jpg);
+}
+
+.blue:hover {
+    background-image: url(colour_images/skyblue.jpg);
+}
+
+.yellow:hover {
+    background-image: url(colour_images/pink.jpg);
+}
+
+.green:hover {
+    background-image: url(colour_images/purple.jpg);
+}
+
+.red {
+    background-image: url(colour_images/red.jpg);
+    background-size: 100px 50px;
+}
+
+.yellow {
+    background-image: url(colour_images/yellow.jpg);
+    background-size: 100px 50px;
+}
+
+.green {
+    background-image: url(colour_images/green.jpg);
+    background-size: 100px 50px;
+}
+
+.blue {
+    background-image: url(colour_images/blue.jpg);
+    background-size: 100px 50px;
+}
