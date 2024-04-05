@@ -190,3 +190,10 @@ background-size xxpx xxpx
 9.背景固定 background-attachment:scroll or fixed 背景图片是否随文字滚动
 10.背景色设置半透明：rgba（0，0，0，0.3）最后面的值是透明度，0是透明1是完全不透明，文字不受影响
 
+Day11 April 5 B站网课 129--140 CSS
+1.CSS的层叠性，相同选择器针对同一个元素 下面的比上面的优先级高
+2.继承性 子标签继承父标签的特性 例如文本颜色 字号 行高等
+3.优先级 同一个元素指定多个选择器时 选择器相同执行层叠性  选择器不同  执行优先级根据权重 !important>style行内修改>ID>class>标签>继承，其中继承的权重为0，权重可以叠加，记住那个表格
+4.盒子模型-网页布局的核心就是用CSS摆盒子
+5.border边框 border: 10px solid red 三个元素 顺序不重要 样式：solid dashed dotted比较常用
+6.可以用border-left/right/top/bottom指定某个边的样式如果写在下面某个边的样式，则会覆盖，利用层叠性。
