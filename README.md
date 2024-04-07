@@ -197,3 +197,10 @@ Day11 April 5 B站网课 129--140 CSS
 4.盒子模型-网页布局的核心就是用CSS摆盒子
 5.border边框 border: 10px solid red 三个元素 顺序不重要 样式：solid dashed dotted比较常用
 6.可以用border-left/right/top/bottom指定某个边的样式如果写在下面某个边的样式，则会覆盖，利用层叠性。
+
+Day12 April6 B站网课 141--150 CSS
+1.border边框合并
+border-collapase
+2.padding复合写法: 顺序上左下右，只写一个：四周padding一样 写两个，第一个上下第二个左右
+3.padding会撑大盒子，（提前声明盒子的宽高的前提下）如果需要测量盒子，宽高减去padding的长度
+4.margin 外边距，以一个为基准写，连写顺序和padding一模一样
