@@ -1,0 +1,85 @@
+table,
+td,
+th {
+    border: 2px solid red;
+}
+
+th {
+    height: 35px;
+}
+
+table {
+    width: 500px;
+    height: 200px;
+    /* 合并相邻边框 */
+    border-collapse: collapse;
+    font-size: 15px;
+}
+
+* {
+    font-family: 'Microsoft yahei';
+}
+
+div {
+    width: 260px;
+    height: 260px;
+    background-color: skyblue;
+    text-align: center;
+    padding: 20px;
+}
+
+.sina {
+    width: 550px;
+    border-top: 3px solid #ff8500;
+    border-bottom: 1px solid #edeef0;
+    height: 41px;
+    background-color: #fcfcfc;
+    color: #4c4c4c;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+span {
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.aa:visited {
+    color: white;
+}
+
+.aa:hover {
+    background-color: orange;
+}
+
+.aa {
+    display: block;
+    background-color: grey;
+    color: white;
+    width: 130px;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    padding: 30px;
+}
+
+.ll .pp {
+    width: 100x;
+    height: 100px;
+    padding: 100px;
+}
+
+.ll {
+    margin-bottom: 20px;
+}
