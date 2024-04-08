@@ -1,0 +1,31 @@
+.header {
+    width: 900px;
+    height: 200px;
+    margin: auto;
+    margin-top: 100px;
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+.father {
+    width: 400px;
+    height: 400px;
+    background-color: pink;
+    margin: 50px auto;
+    border: solid transparent 1px;
+    overflow: hidden;
+}
+
+.son {
+    width: 200px;
+    height: 200px;
+    background-color: purple;
+    margin: auto;
+    margin-top: 30px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
