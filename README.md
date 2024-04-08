@@ -9,6 +9,7 @@ Day 1 Marz 26 HTML B站网课P1-20
 5.文本编辑
   加粗 <strong></strong>
   倾斜 <em></em>
+  
   删除线 <del></del>
   下划线 <ins></ins>
 6.<div></div> <span></span>都是布局标签，前者就是独占一行，后者是集中到一行
@@ -204,3 +205,15 @@ border-collapase
 2.padding复合写法: 顺序上左下右，只写一个：四周padding一样 写两个，第一个上下第二个左右
 3.padding会撑大盒子，（提前声明盒子的宽高的前提下）如果需要测量盒子，宽高减去padding的长度
 4.margin 外边距，以一个为基准写，连写顺序和padding一模一样
+
+Day13 April 7 B站网课 151--160 CSS
+1.块级盒子水平居中:margin:0 auto;
+行内或者行内块：text-align:center;
+2.避免外边距塌陷：用于大盒子套小盒子，如果修改小盒子的margin或者padding会影响大盒子，这样的话只能用overflow:hidden
+3.消除内外边距，便于排版，建议每次排版前都这样做
+*{
+    padding:0;
+    margin:0;
+}
+4.PS基本操作 多用就熟了 用于测量图片大小和提取颜色
+5. width：100% height同理，用于调整内部盒子大小和外部盒子的某个边同样大
