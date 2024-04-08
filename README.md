@@ -199,7 +199,7 @@ Day11 April 5 B站网课 129--140 CSS
 5.border边框 border: 10px solid red 三个元素 顺序不重要 样式：solid dashed dotted比较常用
 6.可以用border-left/right/top/bottom指定某个边的样式如果写在下面某个边的样式，则会覆盖，利用层叠性。
 
-Day12 April6 B站网课 141--150 CSS
+Day12 April 6 B站网课 141--150 CSS
 1.border边框合并
 border-collapase
 2.padding复合写法: 顺序上左下右，只写一个：四周padding一样 写两个，第一个上下第二个左右
@@ -217,3 +217,9 @@ Day13 April 7 B站网课 151--160 CSS
 }
 4.PS基本操作 多用就熟了 用于测量图片大小和提取颜色
 5. width：100% height同理，用于调整内部盒子大小和外部盒子的某个边同样大
+
+Day14 April 8 B站网课 161--170 CSS
+1.listul去掉远点: list-style:none;
+2.圆角边框 border-radius:10px; 其中后面是半径 可以用这个做圆形盒子
+3.盒子阴影 box-shadow 10px 10px 10px 10px black;
+4.文字阴影 text-shadow 同上
