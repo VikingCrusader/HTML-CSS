@@ -223,3 +223,11 @@ Day14 April 8 B站网课 161--170 CSS
 2.圆角边框 border-radius:10px; 其中后面是半径 可以用这个做圆形盒子
 3.盒子阴影 box-shadow 10px 10px 10px 10px black;
 4.文字阴影 text-shadow 同上
+
+Day 15 April 9 B站网课 171--180 CSS
+就学了float排版
+注意点：
+1.浮动元素脱离标准流
+2.顶端对齐
+3.浮动的元素具有行内块元素特性
+做了三个练习
