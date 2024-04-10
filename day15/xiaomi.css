@@ -1,0 +1,58 @@
+/* 小米侧边栏 */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.aa:visited {
+    color: white;
+}
+
+.aa:hover {
+    background-color: orange;
+}
+
+.aa {
+    display: block;
+    background-color: grey;
+    color: white;
+    width: 236px;
+    text-align: center;
+    height: 66px;
+    line-height: 66px;
+}
+
+.box {
+    width: 1225px;
+    height: 461px;
+    border: 1px solid transparent;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.nav {
+    float: left;
+}
+
+.img1 {
+    float: left;
+}
+
+.img2 {
+    width: 989px;
+    height: 464px;
+}

@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    width: 1000px;
+    height: 300px;
+    border: red solid 1px;
+    margin: auto;
+    list-style: none;
+    padding: 10px;
+}
+
+li {
+    width: 234.5px;
+    height: 300px;
+    border: red solid 1px;
+    float: left;
+    margin-right: 18px;
+}
+
+.box .right {
+    margin-right: 0;
+}

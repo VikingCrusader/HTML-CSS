@@ -1,0 +1,29 @@
+.big {
+    width: 1226px;
+    height: 615px;
+    background-color: pink;
+    margin: auto;
+}
+
+.left {
+    width: 236px;
+    height: 615px;
+    background-color: green;
+    float: left;
+}
+
+.right {
+    width: 990px;
+    height: 615px;
+    background-color: blue;
+    float: left;
+}
+
+.small {
+    width: 237px;
+    height: 302px;
+    background-color: red;
+    float: left;
+    margin-left: 10.5px;
+    margin-bottom: 11px;
+}
