@@ -1,0 +1,40 @@
+.damao {
+    width: 300px;
+    height: 200px;
+    background-color: purple;
+    float: left;
+}
+
+.ermao {
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+    float: left;
+}
+
+
+.box {
+    width: 800px;
+    border: 1px solid blue;
+    margin: 0 auto;
+    /* overflow: hidden; */
+}
+
+.footer {
+    width: 800px;
+    height: 200px;
+    background-color: black;
+    margin: auto;
+}
+
+/* .clear {
+    clear: both;
+} */
+
+.clearfix:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidd en;
+}
