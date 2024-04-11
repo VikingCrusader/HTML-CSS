@@ -231,3 +231,26 @@ Day 15 April 9 B站网课 171--180 CSS
 2.顶端对齐
 3.浮动的元素具有行内块元素特性
 做了三个练习
+
+Day 16 April 10
+练习了一个网页布局的案例
+1.如果需要整个页面不填满，居中，可以在外面套一个大的container，然后设置container的样式令其居中，margin：0 auto
+2.多重选择器，中间逗号隔开，不是空格
+3.html和css同时保存，live server才会刷新
+Day 17 April 11
+清除浮动，目的是为了解决盒子不方便给高的情况，子盒子不会跑到父盒子的外边
+1.额外标签法，不常用
+在每个行结束时都添加一个块级元素例如<div class = "clear" ></div> style写 .clear{clear:both} 不常用 因为麻烦
+2.给父元素添加 overflow:hidden简洁
+3.clearfix，复制以下代码：
+.clearfix:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+给html文件的父盒子添加：
+<div class="clearfix"></div>
+就行了，这样万无一失
+4.双伪元素，一个道理，记住clearfix就行了。
