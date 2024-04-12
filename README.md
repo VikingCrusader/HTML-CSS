@@ -254,3 +254,10 @@ Day 17 April 11
 <div class="clearfix"></div>
 就行了，这样万无一失
 4.双伪元素，一个道理，记住clearfix就行了。
+
+Day17 April 12
+常见图片格式
+jpg/jieg 产品类图片
+gif 动图
+png 保持透明背景
+pds PS设计稿
